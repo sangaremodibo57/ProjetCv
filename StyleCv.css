@@ -1,0 +1,101 @@
+*{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    
+}
+body{
+    width: 60%;
+    padding: 0px;
+   
+}
+body header{
+    text-align: center;
+    color: rgb(10, 9, 9);
+    margin-bottom: 5px;
+   
+}
+body header h1{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+body .content{
+   display: flex;
+   justify-content: space-around;
+    background-color: white;
+}
+body .content .part1{
+    width: 45%;
+    background: linear-gradient(#1f1e1e,#030303);
+    border: 1px solid black;
+}
+body .content .part1 .prof{
+    text-align: center;
+    color: white;
+}
+body .content .part1 section h2{
+    color: white;
+    background: linear-gradient(0.25turn, #e67e22, #e67e22, #0e0d0d);
+    font-size: 16px;
+    padding: 2px;
+}
+body .content .part1 section{
+    color: white;    
+}
+body .content .part1 a img{
+    position: relative;
+    margin-left: -40px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+   
+}
+body .content .part1 a img:hover{
+    margin-left: 70px;
+    width: 100px;
+    height: 100px;
+}
+body .content .part2 section{
+    width: 98%;
+    border-top: 1px solid black;
+}
+body .content .part2 section h2{
+   margin: 0px;
+   padding: 0px;
+
+   background: linear-gradient(0.25turn, #0e0d0d, #e67e22, #ffffff);;
+   color: white;
+}
+body .content .part2 section article{
+    padding: 0px;
+    margin: 0px;
+}
+body .content .part2 .educa aside{
+    
+   display: flex;
+   justify-content: space-around;
+}
+body .content .part2 .educa aside .an{
+    
+    width: 280px;
+    text-align: right;
+}
+button{
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background: linear-gradient(#e67e22,#000000);
+    border: 1px solid #e67e22;
+}
+button:hover{
+    
+    background: linear-gradient(#000000,#e67e22);
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}   
+footer{
+    text-align: right;
+    padding: 15px;
+   
+}

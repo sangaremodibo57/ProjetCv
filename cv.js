@@ -1,0 +1,3 @@
+function telec (){
+    alert("Telecharger");
+}
